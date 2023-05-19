@@ -1,0 +1,83 @@
+@media screen and (max-width : 250px ){
+  /* スタイルのルール */
+}
+
+
+@media screen and (max-width : 250px ){
+  header {
+    height: 100px;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto; /* 自動的に高さを調整 */
+}
+
+
+
+header {
+  background-color: #8BC118;
+  color: white;
+  height: 100px;
+  position: relative;
+  z-index: 1; /* ヘッダーのz-indexを1に設定 */
+}
+
+
+.container {
+  position: relative;
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  outline: dashed 1px black;
+}
+
+p {
+  /* 水平方向の中央揃え */
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 150%;
+  background-color: gray(0, 0, 0, 0); /* オーバーレイの背景色を設定 */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 150%;
+  background-color: gray(0, 0, 0, 0); /* オーバーレイの背景色を設定 */
+  color: #FFFFFF;
+  display: flex;
+  align-items: left;
+  justify-content: left ;
+}
+
+
+
+.backglound {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 150%;
+  background-color: #8BC118 (0, 0, 0, 0); /* オーバーレイの背景色を設定 */
+  color: #8BC118;
+  display: flex;
+  align-items: left;
+  justify-content: left ;
+}
